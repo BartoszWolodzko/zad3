@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zad3/static/css/main.addfebd2.css",
+    "main.js": "/zad3/static/js/main.fdc7aa01.js",
+    "index.html": "/zad3/index.html",
+    "main.addfebd2.css.map": "/zad3/static/css/main.addfebd2.css.map",
+    "main.fdc7aa01.js.map": "/zad3/static/js/main.fdc7aa01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.addfebd2.css",
+    "static/js/main.fdc7aa01.js"
+  ]
+}
