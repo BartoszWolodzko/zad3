@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Article from "./components/Article"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Nav from "./components/Nav"
+import browsers from "./data/browsers"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './components/index.scss';
+
+class App extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <Header />
+                <Nav browsers={browsers} />
+                <Article browsers={browsers} />
+                <Footer />
+            </div>
+        )
+    }
 }
 
 export default App;
